@@ -17,6 +17,14 @@ function generateMarkdown(data) {
   ${data.Title}
 
   ${data.license}
+
+  Table of Contents
+  * Description
+  * Installation
+  * Usage
+  * Contribution
+  * Testing
+  * Questions
   
   Project Description
   ${data.Description} 
@@ -33,8 +41,9 @@ function generateMarkdown(data) {
   Test Command
   ${data.Test}
 
-
+  If you have any questions, I can be reached through:
   Email: ${data.email}
+  OR
   GitHub: ${data.github}
 `;
 }
