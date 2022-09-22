@@ -40,7 +40,11 @@ const questions = [
     type: "list",
     name: "license",
     message: "Choose the license which best fits your project.",
-    choices: ["MIT", "Apache", "Boost"]
+    choices: [
+      "MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)", 
+      "Apache 2.0 [![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)", 
+      "bsl-1.0 [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)",
+      "No License"]
   },
   {
     type: "input",
